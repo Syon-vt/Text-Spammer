@@ -1,5 +1,5 @@
 # importing libraries
-from pyautogui import write,press
+from pyautogui import write, press
 from time import sleep
 
 # setting variables
@@ -9,6 +9,8 @@ msgs = 0
 st = 5
 
 text = input("Enter Text:")
+
+print("########## Move cursor to top left corner to stop ##########")
 
 # 5 second cooldown
 while st > 0:
@@ -22,9 +24,9 @@ while True:
     # sending messages
     while i < 100:
         write(text)
-        sleep(0.5)
+        sleep(0.25)
         press('enter')
-        sleep(1)
+        sleep(0.25)
         i = i+1
         msgs = msgs+1
         print("Messages sent = %d    " % (msgs), end='\r')
