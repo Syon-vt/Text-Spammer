@@ -9,6 +9,8 @@ msgs = 0
 st = 5
 
 text = input("Enter Text:")
+if text == None:
+    text="The person who is spamming you is too lazy to put any text here."
 
 print("########## Move cursor to top left corner to stop ##########")
 

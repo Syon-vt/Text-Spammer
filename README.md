@@ -16,4 +16,6 @@ A text spammer to piss people off made in Python
 
 # Important:
 
-## Once the countdown starts, select the textbox where you want to send the messages to.S
+## Once the countdown starts, select the textbox where you want to send the messages to
+----
+# Use At Your Own Risk!
